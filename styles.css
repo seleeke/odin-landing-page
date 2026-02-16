@@ -98,3 +98,27 @@ body {
     font-size: 18px;
     color: #1f2937;
 }
+
+
+/* QUOTE SECTION STYLING */
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 30px 120px 90px 120px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    padding: 60px 60px 30px 60px;
+}
+
+.quote-attribution {
+    font-size: 18px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 60px
+}
