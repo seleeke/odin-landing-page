@@ -115,7 +115,7 @@ body {
 }
 
 .quote-attribution {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 900;
     color: #1f2937;
     display: flex;
@@ -123,6 +123,45 @@ body {
     padding-right: 60px
 }
 
+/* CALL TO ACTION STYLING */
+
+.action-container {
+    padding: 60px 120px 60px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    background-color: #3882f6;
+    padding: 30px 120px 30px 120px;
+    border-radius: 8px;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.action-main-text {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.action-description {
+    font-size: 14px;
+    color: #f9faf8;
+}
+
+.sign-up-button-bordered {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 0 32px;
+    width: fit-content;
+    border: 1px solid #e5e7eb;
+}
 
 /* FOOTER STYLING */
 .footer {
