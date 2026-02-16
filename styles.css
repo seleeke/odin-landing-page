@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER STYLING */ 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 0 15%;
+}
+
+.header-text {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* HERO STYLING */
+
