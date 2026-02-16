@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 0 15%;
+    padding: 0 120px 30px 120px;
 }
 
 .header-text {
@@ -26,10 +26,41 @@ body {
     gap: 24px;
 }
 
-.header-link {
+.header-link, .hero-description {
     font-size: 18px;
     color: #e5e7eb;
 }
 
 /* HERO STYLING */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 30px 120px 90px 120px;
+    gap: 48px;
+}
 
+.hero-text {
+    width: 60%;
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-header {
+   font-size: 48px;
+   font-weight: 900;
+   color: #f9faf8; 
+}
+
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 900;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border-style: none;
+    width: fit-content;
+}
