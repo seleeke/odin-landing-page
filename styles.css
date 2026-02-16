@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 0px 120px 30px 120px;
+    padding: 0px 15% 30px 15%;
 }
 
 .header-text {
@@ -37,7 +37,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 30px 120px 90px 120px;
+    padding: 30px 15% 90px 15%;
     gap: 48px;
 }
 
@@ -71,7 +71,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 150px 60px 150px;
+    padding: 30px 20% 60px 20%;
     gap: 30px;
 }
 
@@ -103,7 +103,7 @@ body {
 /* QUOTE SECTION STYLING */
 .quote-container {
     background-color: #e5e7eb;
-    padding: 30px 120px 90px 120px;
+    padding: 30px 15% 90px 15%;
 }
 
 .quote-text {
@@ -111,7 +111,7 @@ body {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
-    padding: 60px 60px 30px 60px;
+    padding: 60px 7.5% 30px 7.5%;
 }
 
 .quote-attribution {
@@ -126,7 +126,7 @@ body {
 /* CALL TO ACTION STYLING */
 
 .action-container {
-    padding: 60px 120px 60px 120px;
+    padding: 60px 15% 60px 15%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +134,7 @@ body {
 
 .action-box {
     background-color: #3882f6;
-    padding: 30px 120px 30px 120px;
+    padding: 30px 15% 30px 15%;
     border-radius: 8px;
     flex: 1 0 auto;
     display: flex;
