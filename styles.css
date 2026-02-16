@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 0 120px 30px 120px;
+    padding: 0px 120px 30px 120px;
 }
 
 .header-text {
@@ -121,4 +121,18 @@ body {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 60px
+}
+
+
+/* FOOTER STYLING */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    padding: 30px;
 }
